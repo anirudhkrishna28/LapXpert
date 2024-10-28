@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://anikrish2804:anirudh2804@cluster0.pewuuxt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb://localhost:27017/")
 
 db = client.get_database('lap')
 collection = db.get_collection('laptops')
